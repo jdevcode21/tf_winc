@@ -1,0 +1,21 @@
+body {
+    color: red;
+}
+
+.black-border {
+    border: 5px solid black;
+    margin: 50px;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#green-background {
+    background-color: silver;
+}
+
+ul {
+    display: flex;
+
+}
