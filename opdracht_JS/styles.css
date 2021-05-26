@@ -1,0 +1,33 @@
+body {
+    color: black;
+    font-size: 20px;
+}
+
+.black-border {
+    border: 5px solid black;
+    margin: 50px;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.footerclass {
+    font-size: 15px;
+    font-style: italic;
+}
+
+#silver-background {
+    background-color: silver;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

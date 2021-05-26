@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> Website about vitamin C </title>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Name: <input type="text" name="name" required /></label>
+        </p>
+        <p>
+            <label>Email: <input type="email" name="email" required /></label>
+        </p>
+        <p>
+            <label>Phone: <input type="tel" name="phone" required /></label>
+        </p>
+        <p>
+            <label>Age: <input type="number" name="age" required /></label>
+        </p>
+        <p>
+            <label>Birthday: <input type="date" name="birthday" /></label>
+        </p>
+        <p>
+            Gender:
+            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+        </p>
+        <p>
+            Favorite fruit:
+            <label><input type="checkbox" name="cuisine"> Kiwi</label>
+            <label><input type="checkbox" name="cuisine"> Orange</label>
+            <label><input type="checkbox" name="cuisine"> Citrus</label>
+            <label><input type="checkbox" name="cuisine"> Other</label>
+        </p>
+        <p>
+            <label>Favorite fruit color: <input type="color" name="shortcolor"></label>
+        </p>
+        <p>
+            <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <label>Your fruit image:<input type="file" name="fruitimage" /></label>
+        </p>
+        <p>
+            <label>Your fruit webpage:<input type="url" name="fruitwebpage" /></label>
+        </p>
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Send</button>
+        </p>
+    </form>
+    <hr>
+    <footer class="footerclass">
+        Website made by T. Fung.
+    </footer>
+</body>
+
+</html>
