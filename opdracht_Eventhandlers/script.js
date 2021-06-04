@@ -1,9 +1,11 @@
-let myBtn = document.getElementById('mybutton');
-let changeBg = document.getElementsByClassName('blue-background');
+const myBtn = document.getElementById('mybutton');
+const bodybg = document.body; // why document.getElementsbyClassName('blue-background') won't work?
+const changebgbtn = document.getElementById('change-bg-color');
 
 const toggleColor = () => {
-    changeBg.classList.toggle('red-background');
+    bodybg.classList.toggle('red-background');
 };
 
 myBtn.addEventListener('click', function () { alert('button clicked'); });
-changeBg.addEventListener('click', toggleColor);
+changebgbtn.addEventListener('click', toggleColor);
+
